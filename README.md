@@ -52,14 +52,14 @@ npm install rs-slide-menu
 ### Default options
 ```json
 {
-  prefix: 'rs-sm',
-  side: 'left',
-  zIndex: 1500,
-  bgColor: '#000',
-  bgOpacity: '0.6',
-  animation: {
-    duration: '300',
-    easing: 'ease',
+  "prefix": "rs-sm",
+  "side": "left",
+  "zIndex": "1500",
+  "bgColor": "#000",
+  "bgOpacity": "0.6",
+  "animation": {
+    "duration": "300",
+    "easing": "ease"
   }
 }
 ```
