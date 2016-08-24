@@ -1,0 +1,35 @@
+{
+  "name": "rs-slide-menu",
+  "version": "0.0.1",
+  "description": "Simple slide menu",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Redknife/rs-slide-menu.git"
+  },
+  "author": "Rogachev Sergey <redknife183@gmail.com> (https://github.com/Redknife)",
+  "license": "MIT",
+  "keywords": [
+    "menu",
+    "slide"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "lint": "eslint ./src/ || true",
+    "start": "NODE_ENV=dev node devServer.js"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "rules": {
+      "no-underscore-dangle": 0
+    }
+  },
+  "devDependencies": {
+    "babel-core": "6.13.2",
+    "babel-loader": "6.2.5",
+    "babel-preset-es2015": "6.13.2",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "1.14.1"
+  }
+}
