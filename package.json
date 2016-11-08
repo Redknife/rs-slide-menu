@@ -1,6 +1,6 @@
 {
   "name": "rs-slide-menu",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple slide menu",
   "main": "lib/rs-slide-menu.min.js",
   "repository": {
