@@ -31,6 +31,8 @@ npm install rs-slide-menu
     </div>
 </div>
 
+<button class="js-open-nav">Open</button>
+
 <script src="rs-slide-menu.min.js"></script>
 <script>
   var menu = SlideMenu.init('#nav', {
