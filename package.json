@@ -2,7 +2,7 @@
   "name": "rs-slide-menu",
   "version": "0.0.1",
   "description": "Simple slide menu",
-  "main": "src/index.js",
+  "main": "lib/rs-slide-menu.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Redknife/rs-slide-menu.git"
@@ -16,6 +16,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "build:dev": "NODE_ENV=dev webpack --config webpack.config.js",
     "lint": "eslint ./src/ || true",
     "start": "NODE_ENV=dev node devServer.js"
   },

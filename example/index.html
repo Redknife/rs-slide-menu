@@ -11,7 +11,6 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
         <div class="m-buttons">
             <a href="#nav" class="m-button js-open-nav">Show</a>
 
@@ -35,14 +34,13 @@
                 <a href="#">Contacts</a>
             </div>
         </div>
-        <div class="test"></div>
 
-
-        <script src="../dist/rs-slide-menu.min.js"></script>
+        <script src="../lib/rs-slide-menu.min.js"></script>
         <script>
-            SlideMenu.init('#nav', {
+            var menu = SlideMenu.init('#nav', {
                 toggler: '.js-open-nav'
             });
+            console.log(menu);
         </script>
     </body>
 </html>

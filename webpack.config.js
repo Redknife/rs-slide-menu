@@ -5,7 +5,7 @@ const isDev = process.env.NODE_ENV === 'dev';
 
 const outputFilename = isDev ? 'rs-slide-menu.js' : 'rs-slide-menu.min.js';
 
-const plugins = [new webpack.NoErrorsPlugin()];
+const plugins = [];
 
 if (!isDev) {
   plugins.push(
@@ -27,12 +27,9 @@ const config = {
     path.join(__dirname, 'src/index.js'),
   ],
 
-  devtool: 'source-map',
-
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'lib'),
     filename: outputFilename,
-    publicPath: '/dist/',
     library: 'SlideMenu',
     libraryTarget: 'umd',
     umdNamedDefine: true,
